@@ -35,8 +35,10 @@ enum PageType: Int {
     case tableViewWithReadable
     case introRTL
     case introObjC
-    
+    case dynmaic
+    case test
     case count
+    
     
     var title: String {
         switch self {
@@ -55,6 +57,8 @@ enum PageType: Int {
         case .tableViewWithReadable:  return "UITableView using readableMargins"
         case .introRTL:               return "Right-to-left Language Support"
         case .introObjC:              return "Objective-C PinLayout Example"
+        case .dynmaic:                return "Dynmaic"
+        case .test:                   return "Test"
         case .count:                  return ""
         }
     }
@@ -94,6 +98,10 @@ enum PageType: Int {
             return IntroRTLViewController(pageType: self)
         case .introObjC:
             return IntroObjectiveCViewController()
+        case .dynmaic:
+            return DynamicVC()
+        case .test:
+            return TestVC()
         case .count:
             return UIViewController()
         }

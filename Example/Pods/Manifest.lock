@@ -1,0 +1,22 @@
+PODS:
+  - PinLayout (1.9.3)
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+
+DEPENDENCIES:
+  - PinLayout
+  - SDWebImage (= 5.8.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PinLayout
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  PinLayout: 4d8733121f8687edcc8f00c19bf1379d12808767
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+
+PODFILE CHECKSUM: 9aced236b62424f57767de0d279572207bd5713b
+
+COCOAPODS: 1.10.0
